@@ -1,0 +1,40 @@
+|-----------------|
+|  DESENVOLVEDOR: |  
+|-----------------|
+| David Antonio Behling.
+| RA 5014619976.
+| TADS 3 FASE.
+| Ano Novembro, 2017.
+|-----------------|
+|   CONTROLLER´S: |  
+|-----------------|
+| Z------> Atirar
+| SETAS -> Direcional
+|
+|-----------------|
+|      ENREDO     |
+|-----------------|
+|No game o jogador tem que destruir 10 ovnis e uma nave chefe;
+|Enquanto os 10 ovnis não forem destruidos, o cheve nao aparecerá;
+|Jogue com calma, não aperte 'Z' que nem louco;
+|Se perder, será exibido na tela Game Over;
+|Se ganhar, será exibido na tela o nome do Desenvolvedor;
+|
+|-----------------|
+|      BUG´S      |
+|-----------------|
+|1 -> Mesmo depois de fechar o Jogo em seu sistema operacional,
+|ele ainda esta´ra ocupando memória. Acesse o 'Gerenciador de Tarefas'
+|e Finalize o arquivo Project1(32bits) manualmente.
+|
+|2 -> Se o jogador destruir um  ovni, e o mesmo já ter realizado um disparo,
+|ambos serão apagados da tela, o correto seria o ovni ser apagado e o disparo dele
+|continuar em processamento ate atingir o Jogador ou sumir no fim da tela.
+|
+|3-> Depois que a Nave chefe for derrotada, levará alguns segundos até
+|aparecer a tela de vitoria, nesse meio tempo pode ocorrer um evento de disparo
+|na tela e atingir o Jogador.
+|
+|4-> Ao testar em outras maquinas, o programa não executou por faltar a dll alleg42.dll.
+ 
+
